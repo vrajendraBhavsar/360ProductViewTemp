@@ -12,6 +12,7 @@ import android.webkit.WebView;
 public class ProductShowCaseWebView extends WebView {
 
 
+    @SuppressLint("SetJavaScriptEnabled")
     private void init(Context context) {
 
         /*Setting the basic settings for the webview*/
@@ -58,7 +59,7 @@ public class ProductShowCaseWebView extends WebView {
 
                 + "img"
                 + "{"
-                + "display: inline;height: auto;min-width: 100%;max-width: 100%; margin: 10px 0px;"
+                + "display: inline;height: auto;min-width: 40%;max-width: 40%; margin: 10px 0px;"
                 + "}"
                 + "li"
                 + "{"
@@ -67,7 +68,7 @@ public class ProductShowCaseWebView extends WebView {
 
                 + "iframe"
                 + "{"
-                + "display:block;min-width: 100%;max-width: 100%; margin: 10px 0px;"
+                + "display:block;min-width: 0%;max-width: 40%; margin: 10px 0px;"
                 + "}" + "h3" + "{" +
                 "  font-family: ProxyBold" +
                 "}"
